@@ -17,7 +17,7 @@ classifiers = [
     "Topic :: Scientific/Engineering",
 ]
 dependencies = [
-    "annotated-types~=0.6.0",
+    "annotated-types~=0.7.0",
     "importlib-metadata~=7.0",
     "ir-datasets~=0.5.6",
     "pydantic~=2.7",
