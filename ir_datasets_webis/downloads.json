@@ -1,0 +1,8 @@
+{
+  "webis-mastodon-2024": {
+    "docs": {
+      "instructions": "The Webis Mastodon Corpus 2024 is available by request only due to containing potentially sensitive user data. Contact the authors here: <https://webis.de/people.html>.\nOnce you have the files, link the Webis Mastodon Corpus 2024 source directory here: {path}\nThe directory should contain subdirectories for the individual Mastodon instances, e.g., 'mastodon.social'.",
+      "cache_path": "corpus"
+    }
+  }
+}

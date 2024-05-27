@@ -1,0 +1,42 @@
+_:
+  pretty_name: Webis Mastodon Corpus 2024
+  desc: |
+    <p>
+    The Webis Mastodon Corpus 2024 contains 733&nbsp;million public posts from
+    the timelines of 1,015&nbsp;Mastodon nodes across 61&nbsp;days.
+    </p>
+    <p>
+    The dataset is obtained from the Webis group. 
+    For more information, please contact the authors <a href="https://webis.de/people.html">here</a>.
+    </p>
+    <ul>
+    <li><a href="https://webis.de/publications.html?q=mastodon#wiegmann_2024a">Paper</a></li>
+    </ul>
+  docs_instructions: &inst "Documents available from the Webis group"
+  data_access: |
+    <p>
+    To use this dataset, you need a copy of the files provided by the <a href="https://webis.de/people.html">Webis group</a>.
+    </p>
+    <p>
+    Once you have the data, ir_datasets will need the directories that look like the following:
+    </p>
+    <ul>
+    <li><kbd>23.illuminati.org</kbd></li>
+    <li><kbd>3615.computer</kbd></li>
+    <li><kbd>...</kbd></li>
+    <li><kbd>zug.network</kbd></li>
+    </ul>
+    <p>
+    ir_datasets expects the above directories to be copied/linked under <kbd>~/.ir_datasets/webis-mastodon-2024/corpus</kbd>.
+    </p>
+  bibtex_ids:
+    - WiegmannREPHS2024
+
+mastodon.social:
+  desc: |
+    <p>
+    Subset of the Webis Mastodon Corpus 2024 with posts from <a href="https://mastodon.social">mastodon.social</a>.
+    </p>
+  docs_instructions: *inst
+  bibtex_ids:
+    - WiegmannREPHS2024
