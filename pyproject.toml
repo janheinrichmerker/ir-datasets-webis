@@ -38,8 +38,8 @@ tests =[
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/heinrichreimer/ir-datasets-webis"
-"Bug Tracker" = "https://github.com/heinrichreimer/ir-datasets-webis/issues"
+"Homepage" = "https://github.com/janheinrichmerker/ir-datasets-webis"
+"Bug Tracker" = "https://github.com/janheinrichmerker/ir-datasets-webis/issues"
 
 [project.scripts]
 ir_datasets_webis = "ir_datasets_webis:main_cli"
