@@ -1,7 +1,7 @@
 [project]
 name = "ir-datasets-webis"
 authors = [
-    {name = "Jan Heinrich Reimer", email = "heinrich.reimer@uni-jena.de"},
+    {name = "Jan Heinrich Merker", email = "heinrich.merker@uni-jena.de"},
 ]
 description = "Extension for accessing Webis datasets via ir_datasets."
 readme = "README.md"
