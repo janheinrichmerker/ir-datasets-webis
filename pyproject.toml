@@ -49,7 +49,7 @@ irds-webis = "ir_datasets_webis:main_cli"
 [build-system]
 requires = [
     "setuptools~=80.0",
-    "setuptools-scm~=8.0",    
+    "setuptools-scm~=9.1",    
 ]
 build-backend = "setuptools.build_meta"
 
